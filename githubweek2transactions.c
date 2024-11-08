@@ -37,7 +37,8 @@ int main()
         printf(" %i withdrawal transaction(s) worth %i was not processed\n",i+1,tobeprocessed[i]);
     }
     
-    printf("The final balance is %i",balance);
+    printf("The final balance is %i\n",balance);
+    printf("There was a total of %i unprocessed transaction(s)",Unprocessed_count);
     
 
 
